@@ -4,7 +4,9 @@
   "description": "Get Knowledge react",
   "main": "App.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start":"parcel index.html",
+    "build":"parcel build index.html",
+    "test": "jest"
   },
   "repository": {
     "type": "git",
@@ -15,5 +17,16 @@
   "bugs": {
     "url": "https://github.com/get-knowledge/react/issues"
   },
-  "homepage": "https://github.com/get-knowledge/react#readme"
+  "homepage": "https://github.com/get-knowledge/react#readme",
+  "devDependencies": {
+    "parcel": "^2.10.0",
+    "process": "^0.11.10"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "browersList":[
+    "last 2 versions"
+  ]
 }
